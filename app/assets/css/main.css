@@ -1,0 +1,20 @@
+@config '../../../tailwind.config.ts';
+@import 'tailwindcss';
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-base text-ph-text font-body antialiased;
+}
+
+h1,
+h2,
+h3 {
+  @apply font-display tracking-tight;
+}
+
+a {
+  @apply transition-colors duration-200;
+}
