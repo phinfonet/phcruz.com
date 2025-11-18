@@ -179,7 +179,7 @@ Produto é conversa contínua entre intenção e execução.
 Precisão só faz sentido quando há propósito.
 Aqui não finalizamos software: cultivamos continuidade.
 
-Ser parte do processo é mais que acompanhar — é coautorizar a criação.
+Ser parte do processo é mais que acompanhar — é protagonizar a criação.
 É fazer tecnologia operar em tempo real com a vida que ela serve.
           </pre>
         </div>
