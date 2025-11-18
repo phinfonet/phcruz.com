@@ -1,0 +1,154 @@
+{
+  "nav": {
+    "manifesto": "Manifiesto",
+    "solutions": "Soluciones",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "startConversation": "Iniciar conversación"
+  },
+  "hero": {
+    "tagline": "Ingeniería, presencia y propósito en el mismo flujo",
+    "heading": "No entregamos código, entregamos claridad.",
+    "description": "Fundada en 2019 por un programador que cambió el piloto automático por la autoría, PHCruz transforma la incertidumbre en un plan claro. Nos ocupamos de cada etapa del desarrollo — planificación, ejecución y publicación — con entregas consistentes, participación constante y decisiones compartidas: tú acompañas, orientas y ves el producto suceder.",
+    "tagline2": "Creamos productos digitales con ritmo, precisión e involucramiento real.",
+    "cta1": "Comenzar conversación",
+    "cta2": "Conoce el método",
+    "stats": {
+      "founded": {
+        "label": "Origen",
+        "value": "2019",
+        "description": "Cuando PHCruz nació de la decisión de emprender y asumir la autoría completa."
+      },
+      "workMode": {
+        "label": "Modo de trabajo",
+        "value": "Coautoría",
+        "description": "Los clientes participan en cada elección, con entregas consistentes y visibilidad total."
+      },
+      "focus": {
+        "label": "Foco",
+        "value": "Backend & Mobile",
+        "description": "Ingeniería como núcleo, integrando experiencia, infraestructura y publicación continua."
+      }
+    },
+    "interface": {
+      "label": "Próxima Interacción",
+      "time": "02:34",
+      "title": "Interfaz como instrumento.",
+      "description": "Prototipado, métricas y sensorialidad caminando juntos. Cada release recibe ensayos de luz, contraste y respuesta táctil.",
+      "metrics": {
+        "tti": "TTI promedio",
+        "satisfaction": "Satisfacción",
+        "feedback": "Ciclo feedback"
+      }
+    },
+    "technologies": "Principales tecnologías"
+  },
+  "manifesto": {
+    "label": "Manifiesto",
+    "title": "Ingeniería viva, coautoría continua.",
+    "text": "La tecnología es lenguaje vivo.\nNo se trata solo de código, sino de presencia — de construir algo que respira junto con quien lo usa.\n\nPHCruz nace de la inconformidad con lo automático.\nEl software no puede hacerse a distancia de lo humano.\nCada sistema necesita un alma: personas que participan, opinan y moldean.\n\nNo entregamos código, entregamos claridad.\nY esa claridad nace de la colaboración.\n\nLa ingeniería es nuestro idioma, pero no nuestro límite.\nEl producto es conversación continua entre intención y ejecución.\nLa precisión solo tiene sentido cuando hay propósito.\nAquí no finalizamos software: cultivamos continuidad.\n\nSer parte del proceso es más que acompañar — es protagonizar la creación.\nEs hacer que la tecnología opere en tiempo real con la vida que sirve.",
+    "framework": {
+      "title": "Framework de creación",
+      "items": {
+        "diagnosis": {
+          "title": "Diagnóstico profundo",
+          "description": "Mapeo de operación, métricas y expectativas sensoriales."
+        },
+        "design": {
+          "title": "Diseño modular",
+          "description": "Sistemas que respiran, con grid técnico y contraste controlado."
+        },
+        "delivery": {
+          "title": "Entrega continua",
+          "description": "Ciclos ágiles, métricas observables y evolución con gobernanza."
+        }
+      }
+    }
+  },
+  "method": {
+    "label": "El método",
+    "title": "El desarrollo es coautoría.",
+    "description": "La presencia del cliente no es detalle — es la base. Claridad, precisión y continuidad forman el ciclo que transforma intención en software vivo.",
+    "pillars": {
+      "clarity": {
+        "label": "Claridad",
+        "title": "Comunicación directa, sin ruido.",
+        "description": "Ciclos cortos de validación. Alineamos intenciones, revelamos complejidades y construimos un plan claro antes de la primera línea de código.",
+        "items": [
+          "Sesiones de descubrimiento con coautoría",
+          "Blueprint de decisiones y responsabilidades",
+          "Cronograma visible y pactado"
+        ]
+      },
+      "precision": {
+        "label": "Precisión",
+        "title": "Cada decisión es medida.",
+        "description": "Ingeniería de extremo a extremo — backend, mobile, interfaces e infraestructura — con releases consistentes, observabilidad activa y ajustes con propósito.",
+        "items": [
+          "Pipelines continuos y tests confiables",
+          "Revisiones en vivo y decisiones compartidas",
+          "Refinamientos de UX guiados por feedback real"
+        ]
+      },
+      "continuity": {
+        "label": "Continuidad",
+        "title": "El software continúa vivo.",
+        "description": "Sustentación, evolución y observabilidad continua. Mantenemos el producto pulsando, respondiendo a datos reales y ajustando el roadmap junto contigo.",
+        "items": [
+          "Monitoreo activo y alertas inteligentes",
+          "Planificación revisitada en cada sprint",
+          "Playbooks de continuidad y handoffs seguros"
+        ]
+      }
+    },
+    "cta": "¿Quieres ver cómo este método se aplica a tu proyecto?"
+  },
+  "projects": {
+    "label": "Lo que ya transformamos",
+    "title": "Cada proyecto es una conversación entre necesidad y descubrimiento.",
+    "description": "Seleccionamos recortes que muestran cómo coautoría, ritmo y propósito aparecen en el día a día de las entregas.",
+    "cta": "Conversar sobre tu proyecto",
+    "items": [
+      {
+        "tag": "Flujo financiero más humano",
+        "status": "En operación",
+        "subtitle": "Conversaciones semanales · releases continuos",
+        "description": "Rediseñamos un sistema de control para dar visibilidad y ritmo a quien opera. Menos ruido, más claridad para decisiones diarias."
+      },
+      {
+        "tag": "Aplicación SaaS modular",
+        "status": "En evolución",
+        "subtitle": "Base escalable · vínculo con el usuario",
+        "description": "Estructuramos la base de un producto escalable sin perder el contacto con el usuario final. Cada módulo nace con gobernanza compartida."
+      },
+      {
+        "tag": "Integración en tiempo real",
+        "status": "Publicado",
+        "subtitle": "Observabilidad constante · procesos simplificados",
+        "description": "Simplificamos flujos complejos con comunicación directa, monitoreo continuo y decisiones tomadas lado a lado con el equipo interno."
+      }
+    ]
+  },
+  "about": {
+    "label": "Quién conduce",
+    "title": "Soy Pedro Henrique Cruz.",
+    "bio1": "Desarrollo desde 2012 y transformo inconformidad en estructura. Pasé por grandes empresas como desarrollador senior, pero decidí seguir otro camino: reconstruir la relación entre software y gente.",
+    "bio2": "PHCruz nació de esa decisión. Unir ingeniería, autonomía y presencia. Porque el futuro del desarrollo no está en entregar más rápido, sino en entregar con sentido.",
+    "mantra": {
+      "label": "Mantra",
+      "text": "No entregamos código, entregamos claridad. Cada paso es coautoría, cada decisión tiene propósito y cada entrega mantiene el producto vivo junto a quien lo usa."
+    }
+  },
+  "contact": {
+    "label": "Conversemos",
+    "title": "Habla sobre lo que quieres construir y sobre lo que quieres sentir al usarlo.",
+    "description": "Cuéntanos dónde estás, cuáles son los objetivos y qué necesita claridad ahora. Respondemos con los próximos pasos del método y un mapa inicial de coautoría.",
+    "sendMessage": "Enviar mensaje",
+    "scheduleCall": "Agendar conversación"
+  },
+  "footer": {
+    "tagline": "PHCruz — Dark Vibrant Premium",
+    "subtitle": "Precisión técnica con alma artística.",
+    "email": "contacto@phcruz.com"
+  }
+}
