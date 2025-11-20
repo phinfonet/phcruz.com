@@ -1,0 +1,154 @@
+{
+  "nav": {
+    "manifesto": "Manifesto",
+    "solutions": "Solutions",
+    "projects": "Projects",
+    "contact": "Contact",
+    "startConversation": "Start conversation"
+  },
+  "hero": {
+    "tagline": "Engineering, presence and purpose in the same flow",
+    "heading": "We don't deliver code, we deliver clarity.",
+    "description": "Founded in 2019 by a developer who traded autopilot for authorship, PHCruz transforms uncertainty into a clear roadmap. We take care of every stage of development — planning, execution and publishing — with consistent deliveries, constant participation and shared decisions: you follow, guide and see the product happen.",
+    "tagline2": "We create digital products with rhythm, precision and real involvement.",
+    "cta1": "Start conversation",
+    "cta2": "Learn the method",
+    "stats": {
+      "founded": {
+        "label": "Founded",
+        "value": "2019",
+        "description": "When PHCruz was born from the decision to venture and assume complete authorship."
+      },
+      "workMode": {
+        "label": "Work mode",
+        "value": "Co-authorship",
+        "description": "Clients participate in every choice, with consistent deliveries and full visibility."
+      },
+      "focus": {
+        "label": "Focus",
+        "value": "Backend & Mobile",
+        "description": "Engineering as the core, integrating experience, infrastructure and continuous publishing."
+      }
+    },
+    "interface": {
+      "label": "Next Interaction",
+      "time": "02:34",
+      "title": "Interface as an instrument.",
+      "description": "Prototyping, metrics and sensoriality walking together. Each release receives tests of light, contrast and tactile response.",
+      "metrics": {
+        "tti": "Avg TTI",
+        "satisfaction": "Satisfaction",
+        "feedback": "Feedback cycle"
+      }
+    },
+    "technologies": "Main technologies"
+  },
+  "manifesto": {
+    "label": "Manifesto",
+    "title": "Living engineering, continuous co-authorship.",
+    "text": "Technology is living language.\nIt's not just about code, but about presence — building something that breathes together with those who use it.\n\nPHCruz is born from dissatisfaction with the automatic.\nSoftware cannot be made at a distance from the human.\nEach system needs a soul: people who participate, opine and shape.\n\nWe don't deliver code, we deliver clarity.\nAnd that clarity is born from collaboration.\n\nEngineering is our language, but not our limit.\nProduct is continuous conversation between intention and execution.\nPrecision only makes sense when there's purpose.\nHere we don't finish software: we cultivate continuity.\n\nBeing part of the process is more than following — it's leading the creation.\nIt's making technology operate in real time with the life it serves.",
+    "framework": {
+      "title": "Creation framework",
+      "items": {
+        "diagnosis": {
+          "title": "Deep diagnosis",
+          "description": "Mapping of operation, metrics and sensory expectations."
+        },
+        "design": {
+          "title": "Modular design",
+          "description": "Systems that breathe, with technical grid and controlled contrast."
+        },
+        "delivery": {
+          "title": "Continuous delivery",
+          "description": "Lean cycles, observable metrics and evolution with governance."
+        }
+      }
+    }
+  },
+  "method": {
+    "label": "The method",
+    "title": "Development is co-authorship.",
+    "description": "The client's presence is not a detail — it's the foundation. Clarity, precision and continuity form the cycle that transforms intention into living software.",
+    "pillars": {
+      "clarity": {
+        "label": "Clarity",
+        "title": "Direct communication, no noise.",
+        "description": "Short validation cycles. We align intentions, reveal complexities and build a clear roadmap before the first line of code.",
+        "items": [
+          "Discovery sessions with co-authorship",
+          "Blueprint of decisions and responsibilities",
+          "Visible and agreed timeline"
+        ]
+      },
+      "precision": {
+        "label": "Precision",
+        "title": "Every decision is measured.",
+        "description": "End-to-end engineering — backend, mobile, interfaces and infrastructure — with consistent releases, active observability and purposeful adjustments.",
+        "items": [
+          "Continuous pipelines and reliable tests",
+          "Live reviews and shared decisions",
+          "UX refinements guided by real feedback"
+        ]
+      },
+      "continuity": {
+        "label": "Continuity",
+        "title": "The software stays alive.",
+        "description": "Sustaining, evolution and continuous observability. We keep the product pulsing, responding to real data and adjusting the roadmap together with you.",
+        "items": [
+          "Active monitoring and intelligent alerts",
+          "Planning revisited every sprint",
+          "Continuity playbooks and safe handoffs"
+        ]
+      }
+    },
+    "cta": "Want to see how this method applies to your project?"
+  },
+  "projects": {
+    "label": "What we've already transformed",
+    "title": "Each project is a conversation between need and discovery.",
+    "description": "We've selected snapshots that show how co-authorship, rhythm and purpose appear in the day-to-day of deliveries.",
+    "cta": "Talk about your project",
+    "items": [
+      {
+        "tag": "More human financial flow",
+        "status": "In operation",
+        "subtitle": "Weekly conversations · continuous releases",
+        "description": "We redesigned a control system to give visibility and rhythm to those who operate. Less noise, more clarity for daily decisions."
+      },
+      {
+        "tag": "Modular SaaS application",
+        "status": "Evolving",
+        "subtitle": "Scalable base · user connection",
+        "description": "We structured the base of a scalable product without losing contact with the end user. Each module is born with shared governance."
+      },
+      {
+        "tag": "Real-time integration",
+        "status": "Published",
+        "subtitle": "Constant observability · simplified processes",
+        "description": "We simplified complex flows with direct communication, continuous monitoring and decisions made side by side with the internal team."
+      }
+    ]
+  },
+  "about": {
+    "label": "Who leads",
+    "title": "I'm Pedro Henrique Cruz.",
+    "bio1": "I've been developing since 2012 and transform dissatisfaction into structure. I worked at large companies as a senior developer, but decided to follow another path: rebuild the relationship between software and people.",
+    "bio2": "PHCruz was born from that decision. Uniting engineering, autonomy and presence. Because the future of development is not about delivering faster, but delivering with meaning.",
+    "mantra": {
+      "label": "Mantra",
+      "text": "We don't deliver code, we deliver clarity. Each step is co-authorship, each decision has purpose and each delivery keeps the product alive together with those who use it."
+    }
+  },
+  "contact": {
+    "label": "Let's talk",
+    "title": "Tell us what you want to build and what you want to feel when using it.",
+    "description": "Tell us where you are, what the goals are and what needs clarity now. We respond with the next steps of the method and an initial co-authorship map.",
+    "sendMessage": "Send message",
+    "scheduleCall": "Schedule call"
+  },
+  "footer": {
+    "tagline": "PHCruz — Dark Vibrant Premium",
+    "subtitle": "Technical precision with artistic soul.",
+    "email": "contact@phcruz.com"
+  }
+}

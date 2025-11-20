@@ -9,7 +9,7 @@
 
     <header class="sticky top-0 z-50 border-b border-white/10 bg-base/40 backdrop-blur-xl">
       <nav class="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-5">
-        <NuxtLink class="flex items-center gap-3 text-white/70 transition hover:text-white" to="/">
+        <NuxtLink class="flex items-center gap-3 text-white/70 transition hover:text-white" :to="localePath('/')">
           <NuxtImg
             src="/logo-phcruz.svg"
             alt="PHCruz"
@@ -20,19 +20,22 @@
         </NuxtLink>
 
         <div class="hidden items-center gap-8 text-sm uppercase text-white/60 md:flex">
-          <NuxtLink class="transition-colors duration-300 hover:text-white" to="#manifesto">Manifesto</NuxtLink>
-          <NuxtLink class="transition-colors duration-300 hover:text-white" to="#solucoes">Soluções</NuxtLink>
-          <NuxtLink class="transition-colors duration-300 hover:text-white" to="#projetos">Projetos</NuxtLink>
-          <NuxtLink class="transition-colors duration-300 hover:text-white" to="#contato">Contato</NuxtLink>
+          <NuxtLink class="transition-colors duration-300 hover:text-white" to="#manifesto">{{ $t('nav.manifesto') }}</NuxtLink>
+          <NuxtLink class="transition-colors duration-300 hover:text-white" to="#solucoes">{{ $t('nav.solutions') }}</NuxtLink>
+          <NuxtLink class="transition-colors duration-300 hover:text-white" to="#projetos">{{ $t('nav.projects') }}</NuxtLink>
+          <NuxtLink class="transition-colors duration-300 hover:text-white" to="#contato">{{ $t('nav.contact') }}</NuxtLink>
         </div>
 
-        <NuxtLink
-          to="#contato"
-          class="group inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-5 py-2 text-sm font-medium text-white transition duration-300 hover:border-ph-emerald/60 hover:bg-ph-emerald/10"
-        >
-          <span>Iniciar conversa</span>
-          <Icon name="tabler:arrow-up-right" class="h-4 w-4 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
-        </NuxtLink>
+        <div class="flex items-center gap-4">
+          <LanguageSwitcher />
+          <NuxtLink
+            to="#contato"
+            class="group inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-5 py-2 text-sm font-medium text-white transition duration-300 hover:border-ph-emerald/60 hover:bg-ph-emerald/10"
+          >
+            <span>{{ $t('nav.startConversation') }}</span>
+            <Icon name="tabler:arrow-up-right" class="h-4 w-4 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+          </NuxtLink>
+        </div>
       </nav>
     </header>
 
@@ -43,14 +46,18 @@
     <footer class="relative z-[5] border-t border-white/10 bg-base/80 backdrop-blur-xl">
       <div class="mx-auto flex max-w-6xl flex-col gap-4 px-6 py-10 text-sm text-white/50 sm:flex-row sm:items-center sm:justify-between">
         <div class="flex flex-col gap-1">
-          <span class="font-display text-base text-white/80">PHCruz — Dark Vibrant Premium</span>
-          <span class="text-white/40">Precisão técnica com alma artística.</span>
+          <span class="font-display text-base text-white/80">{{ $t('footer.tagline') }}</span>
+          <span class="text-white/40">{{ $t('footer.subtitle') }}</span>
         </div>
         <div class="flex items-center gap-6 text-white/40">
           <span>© {{ new Date().getFullYear() }}</span>
-          <NuxtLink to="mailto:contato@phcruz.com" class="transition hover:text-white">contato@phcruz.com</NuxtLink>
+          <NuxtLink :to="`mailto:${$t('footer.email')}`" class="transition hover:text-white">{{ $t('footer.email') }}</NuxtLink>
         </div>
       </div>
     </footer>
   </div>
 </template>
+
+<script setup lang="ts">
+const localePath = useLocalePath()
+</script>

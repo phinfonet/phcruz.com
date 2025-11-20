@@ -10,8 +10,41 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/icon',
     '@nuxt/image',
-    '@nuxt/scripts'
+    '@nuxt/scripts',
+    '@nuxtjs/i18n'
   ],
+
+  i18n: {
+    locales: [
+      {
+        code: 'pt-br',
+        name: 'Português (Brasil)',
+        iso: 'pt-BR',
+        file: 'pt-br.json'
+      },
+      {
+        code: 'es-cl',
+        name: 'Español (Chile)',
+        iso: 'es-CL',
+        file: 'es-cl.json'
+      },
+      {
+        code: 'en',
+        name: 'English',
+        iso: 'en-US',
+        file: 'en.json'
+      }
+    ],
+    lazy: true,
+    langDir: 'locales',
+    defaultLocale: 'pt-br',
+    strategy: 'prefix_except_default',
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      redirectOn: 'root'
+    }
+  },
 
   css: ['~/assets/css/main.css'],
 
